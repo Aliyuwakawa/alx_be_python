@@ -1,4 +1,5 @@
-# clothing advice for a weather condition
+#!/usr/bin/env python3
+
 weather = input("what's the weather like today? (sunny/rainy/cold): ").lower()
 
 if weather == "sunny":
