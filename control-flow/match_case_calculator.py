@@ -12,5 +12,7 @@ match operation:
     case '/':
         if num2 == 0:
             print("Division by zero is not allowed.")
-            return
+           
 print(f"The result is {result}")
+python
+
