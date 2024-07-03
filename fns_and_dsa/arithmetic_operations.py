@@ -10,7 +10,7 @@ def perform_operation(num1, num2, operation):
     elif operation == 'multiply':
         result = float(num1 * num2)
     elif operation == 'divide':
-        if num2 = 0:
+        if num2 == 0:
             result = "Erro, division by zero os undefined"
         else:
             result = "float(num1 / num2)"
