@@ -7,7 +7,7 @@ def perform_operation(num1, num2, operation):
         result = float(num1 + num2)
     elif operation == 'subtract':
         result = float(num1 - num2)
-    elif operation == 'multiplication':
+    elif operation == 'multiply':
         result = float(num1 * num2)
     elif operation == 'divide':
         if num2 = 0:
