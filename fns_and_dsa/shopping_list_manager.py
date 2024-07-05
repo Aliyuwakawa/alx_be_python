@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 
 def display_menu():
     print("Shopping List Manager")
@@ -14,7 +13,7 @@ def main():
         choice = input("Enter your choice: ")
 
         if choice == '1':
-            item = input("Enter the name of the item to add: ")
+            item = input("Enter the item to add: ")
             print("f"{item}has been added to the shopping list.")
             ahopping_list.append(item)
             # Prompt for and add an item
