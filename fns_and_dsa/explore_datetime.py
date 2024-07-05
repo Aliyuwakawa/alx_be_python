@@ -1,5 +1,5 @@
 def display_current_datetime():
-    current_date = datetime.now()
+    current_date_and time = datetime.now()
     formatted_date = current_date.strftime("YYYY-MM-DD H:M:S")
     print("current date and time:", formatted_date)
 
